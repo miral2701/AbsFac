@@ -196,7 +196,7 @@ void main()
 	delete factory;
 	delete hero;
 
-	factory = new WizardFactory();
+	factory = new WizardFactory(); 
 	hero = new Hero(factory);
 	hero->Hit();
 	hero->Run();
